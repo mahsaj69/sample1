@@ -1,0 +1,435 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 0;
+  border: 0;
+}
+.nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 0;
+  border: 0;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0;
+  border: 0;
+}
+
+.fa-search {
+  padding: 20px;
+  background-color: crimson;
+  color: white;
+  font-size: 22px !important;
+}
+
+.fa-compass {
+  color: crimson;
+}
+
+.img-header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: sticky;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgba(31, 19, 27, 0.54)
+    ),
+    url("img/lucas-clara-579404-unsplash.avif");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.h6-img-header {
+  font-size: 23px;
+}
+.h3-img-header {
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn-img-header {
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 150px;
+  padding: 12px 5px !important;
+  background-color: rgb(25, 195, 195);
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+
+.where {
+  display: flex;
+  background-color: rgb(1, 1, 17);
+  padding: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.where-header {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-where-header {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.btn-search-where-header {
+  background-color: crimson;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.Italy {
+  background-image: url("img/brazil.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.Brazil {
+  background-image: url("img/italy.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.America {
+  background-image: url("img/america.webp");
+  background-size: cover;
+  background-color: black;
+}
+
+.Nepal {
+  background-image: url("img/nepal.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.Maldives {
+  background-image: url("img/maldives.jpg");
+  background-size: cover;
+  background-color: black;
+}
+
+.France {
+  background-image: url("img/france.jpeg");
+  background-size: cover;
+  background-color: black;
+}
+
+.image-group {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.countery {
+  border-radius: 3px;
+  margin-left: 10px;
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  display: flex;
+  padding-bottom: 10px !important;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  align-items: end;
+}
+
+.countery:hover {
+  transform: translateY(-20px);
+  transition-duration: 2s;
+}
+.container-image-group {
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.popular {
+  text-align: center;
+  margin-top: 50px;
+}
+.h4-popular {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.h5-popular {
+  font-size: 16px;
+  color: rgb(116, 116, 116);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.h5-country {
+  padding-left: 20px !important;
+  color: white;
+}
+.btn-country {
+  color: white;
+  font-size: 12px;
+  background-color: rgb(23, 209, 209);
+  padding: 4px 5px;
+  border: 0;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.btn-country:hover {
+  background-color: crimson;
+}
+
+.h5-country:hover {
+  color: crimson;
+}
+
+.subscribe {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(5, 16, 75, 0.614),
+      rgba(31, 19, 27, 0.54)
+    ),
+    url("img/paraglider.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px !important;
+}
+.input-subscribe {
+  width: 60%;
+  height: 30px;
+  border: 0;
+  border-radius: 2px;
+  padding: 2px 5px !important;
+}
+
+.btn-subscribe {
+  background-color: crimson;
+  height: 34px;
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  margin-left: 5px;
+  padding: 3px 5px;
+}
+
+.text-subscribe {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.video {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(6, 22, 108, 0.436),
+      rgba(31, 19, 27, 0.54)
+    ),
+    url("img/hawaii.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  text-align: center !important;
+  align-items: center !important;
+  margin-bottom: 20px !important;
+}
+
+.h1-video {
+  font-size: 90px;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+  padding-top: 90px !important;
+}
+
+.fa-play {
+  margin-left: -2%;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgb(21, 226, 226);
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-play:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.footer {
+  background-color: rgb(1, 1, 17);
+  height: 180px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.contact .h3-logo {
+  color: white;
+}
+
+.contact .logo {
+  align-items: center;
+  display: flex;
+  align-items: baseline !important;
+  margin-bottom: 10px;
+}
+
+.contact .fa-compass {
+  font-size: 45px !important;
+}
+.footer {
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hambergur {
+  display: none;
+}
+
+.footer .menu {
+  list-style: none;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  justify-content: space-between;
+  text-align: center !important;
+  align-items: center;
+  color: rgb(171, 171, 171);
+}
+
+.h6-contact {
+  margin-bottom: 5px;
+  color: rgb(171, 171, 171);
+}
+.popular-destination-h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.menu2 {
+  display: none;
+}
+@media only screen and (max-width: 1164px) {
+  .where {
+    display: block;
+  }
+  .input-where-header {
+    width: 30%;
+  }
+  .input-contain {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .input-where-header {
+    margin-bottom: 5px;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .input-subscribe {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .btn-subscribe {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+
+  .text-subscribe {
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    display: flex;
+    padding-top: -15px !important;
+  }
+  .hambergur {
+    display: block;
+  }
+  .fa-bars {
+    padding: 15px !important;
+    font-size: 34px !important;
+    background-color: cornsilk;
+  }
+  .h1-video {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .fa-play {
+    position: absolute;
+    margin-left: -2%;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(21, 226, 226);
+    color: white;
+    border-radius: 50%;
+  }
+}
